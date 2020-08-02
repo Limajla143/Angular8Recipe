@@ -63,7 +63,7 @@ autoLogin() {
 
   if(loadedUser.getToken()){
     this.user.next(loadedUser);
-    const expirationDuration = new Date(userData._tokenExpirationDate).getTime() - 
+    const expirationDuration = new Date(userData._tokenExpirationDate).getTime() -
     new Date().getTime();
     this.autoLogOut(expirationDuration);
   }

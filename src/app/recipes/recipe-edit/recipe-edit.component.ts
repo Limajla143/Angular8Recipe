@@ -12,6 +12,11 @@ export class RecipeEditComponent implements OnInit {
   id: number;
   editMode: boolean;
   recipeForm: FormGroup;
+
+  // get ingredientControls(){
+  //   return (this.recipeForm.get('ingredients') as FormArray).controls;
+  // }
+
   constructor(private route: ActivatedRoute, private recipeService: RecipeService, private router: Router) { }
 
   ngOnInit(): void {
@@ -19,7 +24,6 @@ export class RecipeEditComponent implements OnInit {
       this.id = +params['id'];
       this.editMode = params['id'] != null;
       this.initForm();
-      //console.log(this.editMode);
     })
   }
 
@@ -43,9 +47,8 @@ export class RecipeEditComponent implements OnInit {
             })
           );
         }
-      } 
+      }
     }
-    
     this.recipeForm = new FormGroup({
       'name': new FormControl(recipeName, Validators.required),
       'imagePath': new FormControl(recipeImagePath, Validators.required),
