@@ -4,6 +4,7 @@ import { catchError, tap } from 'rxjs/operators';
 import { throwError, Subject, BehaviorSubject } from 'rxjs';
 import { User } from './user.model';
 import { Router } from '@angular/router';
+import { environment } from '../../environments/environment';
 
 export interface AuthResponseData{
   kind: string;
@@ -25,7 +26,7 @@ export class AuthServiceService {
 constructor(private http: HttpClient, private router: Router) { }
 
 signup(email: string, password: string){
-  return this.http.post<AuthResponseData>('https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyAK1tJVY2nXR9ZhFL81Q6n1Qmx_3aSlQ7A',
+  return this.http.post<AuthResponseData>('https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=' + environment.firebaseAPIKey,
   {
     email: email,
     password: password,
@@ -70,7 +71,8 @@ autoLogin() {
 }
 
 signin(email: string, password: string){
-  return this.http.post<AuthResponseData>('https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyAK1tJVY2nXR9ZhFL81Q6n1Qmx_3aSlQ7A',
+  // tslint:disable-next-line: max-line-length
+  return this.http.post<AuthResponseData>('https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=' + environment.firebaseAPIKey ,
   {
     email: email,
     password: password,
