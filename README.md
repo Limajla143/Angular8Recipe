@@ -27,9 +27,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Screenshots
-![Alt text](https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/login.PNG "LOG IN")
-![Alt text](https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/newRecipe.PNG "Add new recipe")
-![Alt text](https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/newRecipeIngredient.PNG "Add new recipe with ingredient")
-![Alt text](https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/recipes.PNG "List of recipes")
-![Alt text](https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/shoppingList.PNG "List of shopping lists")
-![Alt text](https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/signUP.PNG "SIGN Up")
+![Screenshot](https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/login.PNG "LOG IN")
+![Screenshot](https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/newRecipe.PNG "Add new recipe")
+![Screenshot](https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/newRecipeIngredient.PNG "Add new recipe with ingredient")
+![Screenshot](https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/recipes.PNG "List of recipes")
+![Screenshot](https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/shoppingList.PNG "List of shopping lists")
+![Screenshot](https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/signUP.PNG "SIGN Up")
+
+
+<img src="https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/login.PNG" width="100" height="100"/>
+<img src="https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/newRecipe.PNG" width="100" height="100"/>
+<img src="https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/newRecipeIngredient.PNG" width="100" height="100"/>
+<img src="https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/recipes.PNG" width="100" height="100"/>
+<img src="https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/shoppingList.PNG" width="100" height="100"/>
+<img src="https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/signUP.PNG" width="100" height="100"/>
