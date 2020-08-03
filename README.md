@@ -32,5 +32,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ![Add new recipe with ingredient](screenshots/newRecipeIngredient.PNG)
 ![List of recipes](screenshots/recipes.PNG)
 ![List of shopping lists](screenshots/shoppingList.PNG)
-![SIGN Up](screenshots/signUP.PNG)
+![SIGN UP](screenshots/signUp.PNG)
 
