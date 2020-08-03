@@ -34,10 +34,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ![Screenshot](https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/shoppingList.PNG "List of shopping lists")
 ![Screenshot](https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/signUP.PNG "SIGN Up")
 
-
+<div align="center"> 
 <img src="https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/login.PNG" width="100" height="100"/>
 <img src="https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/newRecipe.PNG" width="100" height="100"/>
 <img src="https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/newRecipeIngredient.PNG" width="100" height="100"/>
 <img src="https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/recipes.PNG" width="100" height="100"/>
 <img src="https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/shoppingList.PNG" width="100" height="100"/>
 <img src="https://github.com/Aljamil1113/Angular8Recipe/tree/master/screenshots/signUP.PNG" width="100" height="100"/>
+</div>
